@@ -1,0 +1,18 @@
+{
+  "name": "bot",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "run:check-metatags": "bun services/check-metatags.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@slack/webhook": "^7.0.2",
+    "puppeteer": "^22.3.0"
+  }
+}
